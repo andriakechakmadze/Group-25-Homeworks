@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homework</title>
+</head>
+<body>
+
+  <h1>Student Performance Report</h1>
+
+  <table border="2">
+    <tr>
+      <th>Student</th>
+      <th colspan="3">Subjects</th>
+      <th>Attendance</th>
+      <th>Final Grade</th>
+    </tr>
+    <tr>
+      <td rowspan="3">John Doe</td>
+      <td>Math</td>
+      <td>Science</td>
+      <td>History</td>
+      <td rowspan="3">95%</td>
+      <td rowspan="3">
+        Math: A<br>
+        Science: B
+      </td>
+    </tr>
+    <tr>
+      <td><input type="text" value="A"></td>
+      <td><select>
+        <option value="B">B</option>
+      </select></td>
+      <td><input type="checkbox" checked> Pass</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Jane Smith</td>
+      <td><input type="text" value="B"></td>
+      <td><select>
+        <option value="C">C</option>
+      </select></td>
+      <td><input type="checkbox"> Pass</td>
+      <td rowspan="3">85%</td>
+      <td rowspan="3">
+        History: Pass<br>
+        Total: B+
+      </td>
+    </tr>
+    <tr>
+      <td><input type="text" value="C"></td>
+      <td><select>
+        <option value="B">B</option>
+      </select></td>
+      <td><input type="checkbox" checked> Pass</td>
+    </tr>
+  </table>
+
+  <p>Generated on: <input type="date" value="mm/dd/yyyy"></p>
+
+</body>
+</html>
